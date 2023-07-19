@@ -1,0 +1,55 @@
+
+
+# initialize a repo (the folder I'm in???)
+git init 
+
+# what to save
+git add file.ext  //specific file
+git add .  //everything
+
+# save changes
+git commit -m 'message about what im saving'
+
+# look in log
+git log
+
+# to check earlier commits
+git checkout 5fxx5sx45xx6t23425235 //move to another "timeline"
+
+#where am i
+git branch
+
+#add a folder to a repo on github (need to make it on the website first?)
+git remote add origin https://github.com/snusd0sa/python.git
+
+#push the folder to the website
+git push -u origin master
+
+#create a new branch
+git checkout -b new-branch
+git branch
+
+ex.  
+touch newpythonfile.py
+git add .
+git commit -m 'what have you done'
+git log //shows log, and now we should see master and the new branch
+
+
+#push new branch
+git push origin new-branch
+
+#pull down
+git pull origin master
+
+
+
+
+
+
+
+
+
+
+
+
