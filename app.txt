@@ -1,0 +1,17 @@
+
+
+
+
+
+
+- välja övning, tid/reps - antal set
+- spara nya övningar
+
+- visa tidigare
+
+- sätta ihop ett "pass" och köra igång
+    - första övning tid/reps
+    - andra övning tid/reps
+    - osv
+
+möjligt att köra superset?
